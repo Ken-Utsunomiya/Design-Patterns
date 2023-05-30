@@ -1,5 +1,5 @@
 # Abstract Factory
----
+
 Abstract Factory is a creational pattern that lets you produce families of related objects without specifying their concrete classes.
 
 ### :mag: Components
@@ -15,7 +15,9 @@ Abstract Factory is a creational pattern that lets you produce families of relat
 
 ### :memo: Pros and Cons
 :white_check_mark: Single Responsibility Principle: extract product creation code into one place
+
 :white_check_mark: Loose coupling between concrete products and client code
+
 :white_check_mark: Open/Closed Principle: add new variants without breaking client code
 
 :x: Code may become more complicated with a lot of interfaces, classes
