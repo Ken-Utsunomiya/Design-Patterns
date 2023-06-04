@@ -1,14 +1,14 @@
 package factories;
 
 import buttons.Button;
-import buttons.WIndowsButton;
+import buttons.WindowsButton;
 import checkboxes.Checkbox;
 import checkboxes.WIndowsCheckbox;
 
 public class WindowsFactory implements GUIFactory {
     @Override
     public Button createButton() {
-        return new WIndowsButton();
+        return new WindowsButton();
     }
 
     @Override
